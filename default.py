@@ -278,25 +278,34 @@ def testOne():
 	
 ####################22222222222222222222222################
 def testRun():
-	__addon__ = xbmcaddon.Addon()
-	__addonname__ = __addon__.getAddonInfo('name')
-	__icon__ = __addon__.getAddonInfo('icon')
- 
-	line1 = "This is a simple example of notifications"
-	time = 5000 #in miliseconds
- 
-	xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+	#xbmc.executebuiltin('XBMC.RunScript(special://home/addons/plugin.program.geeteecleaner/resources/speed/default.py')
+#runs a plugin:
+	xbmc.executebuiltin('XBMC.RunScript(special://home/addons/script.kodispeedtest/default.py)')
+# files.append(os.path.join(ADDOND, 'plugin.video.bob', 'cache.db'))
+# xbmc.executebuiltin('XBMC.RunScript(/resources/libs/speed/default.py)')
+
+#xbmc.executebuiltin('XBMC.RunPlugin(plugin://plugin.program.jdownloader/?action=addlink&url=http://www.abc.com/test.rar)')
 
 
-	__addon__ = xbmcaddon.Addon()
-	__addonname__ = __addon__.getAddonInfo('name')
-
-	line1 = "This is a simple example of OK dialog"
-	line2 = "Showing this message using"
-	line3 = "XBMC python modules"
-
-	xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-	
+##	__addon__ = xbmcaddon.Addon()
+##	__addonname__ = __addon__.getAddonInfo('name')
+##__icon__ = __addon__.getAddonInfo('icon')
+ ##
+#	line1 = "This is a simple example of notifications"
+#	time = 5000 #in miliseconds
+# 
+#	xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+#
+#
+#	__addon__ = xbmcaddon.Addon()
+#	__addonname__ = __addon__.getAddonInfo('name')
+#
+#	line1 = "This is a simple example of OK dialog"
+#	line2 = "Showing this message using"
+#	line3 = "XBMC python modules"
+#
+#	xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
+#	
 	
 
 
