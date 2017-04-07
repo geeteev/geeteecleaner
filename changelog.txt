@@ -1,0 +1,13 @@
+v1.0.3
+path changes to try display cache size better. Added Test1 and 2 menu items for playing around with
+
+v1.0.2
+added Exodus Providers.db clean
+v1.0.1
+Cleaned up settings. Added Monthly cleanup option
+
+
+v1.0.0
+Initial release
+Code based on Aftermath Wizard
+

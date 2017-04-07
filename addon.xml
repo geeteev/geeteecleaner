@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.geeteecleaner" name="GeeTee Cleaner" version="1.0.2" provider-name="@geeteetv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GeeTee Cleaner</summary>
+    <description lang="en">For cleaning cache, temp, etc files. Please be careful what you do, it can be a very powerful cleaner.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
